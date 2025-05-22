@@ -1,0 +1,9 @@
+Here are a few examples, your output format should be consistent with the results provided in the example:
+<example1>
+    <User instructions:> Lower the air conditioner temperature in the guest bedroom by 1 degree.
+    <Machine instructions:> {guest_bedroom.air_conditione.set_temperature(26)}
+</example1>
+<example2>
+    <User instructions:> Turn on the light in the living room.
+    <Machine instructions:> {error_input}  (If there is no device or if there is no attribute or method that can be operated on the device, please output as "error_input".)
+</example2>

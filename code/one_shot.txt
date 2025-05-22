@@ -1,0 +1,5 @@
+Here are an example, your output format should be consistent with the results provided in the example:
+<example1>
+    <User instructions:> Lower the air conditioner temperature in the guest bedroom by 1 degree.
+    <Machine instructions:> {guest_bedroom.air_conditione.set_temperature(26)}
+</example1>
